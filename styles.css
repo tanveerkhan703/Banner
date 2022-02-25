@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+width: 100%;
+height: 500px;	
+background-image: url(images/nav.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 60px;
+
+}
+.div{
+	text-align: center;
+	line-height: 35px;
+	width: 60%;
+	background-color: #0000008a;
+	margin: auto;
+	margin-top: 30px;
+	height: 70%;
+
+
+}
+h1{
+	font-size: 45px;
+	border-bottom: 1px solid white;
+}
+.rum{
+	
+	color: white;
+	font-size: 25px;
+}
+.play{
+	font-family: sans-serif;
+	color: orangered;
+}
+.bar{
+color:yellowgreen ;
+}
+.click{
+	font-size: 20px;
+	color: white;
+}
+.btn{
+	height: 40px;
+	width: 120px;
+	border-radius: 20px;
+	background-color: royalblue;
+	color: white;
+	outline: none;
+	border: 2px solid black;
+}
+.btn:hover{
+transition: ease-out 0.5s;
+background-color: transparent;
+}
+.btn:active{
+	transition: ease-out 0.5s;
+	background-color: royalblue;
+}
